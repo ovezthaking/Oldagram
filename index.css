@@ -17,10 +17,53 @@ header {
     
 }
 
-#logo {
-    
-}
-
 #avatar {
     border-radius: 50%;
+}
+
+main {
+    margin-top: 40px;
+}
+
+.user-avatar {
+    float: left;
+    border-radius: 50%;
+    height: 50px;
+}
+
+.user-info {
+    margin: 90px 25px 25px 25px;
+}
+
+.user-text {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.user-name {
+    margin: 5px;
+    font-weight: 900;
+}
+
+.user-location {
+    margin-top: 8px;
+    margin-left: 7px;
+    font-size: 0.9rem;
+}
+
+.reactions {
+
+}
+
+.reaction {
+    width: 50px;
+    margin: 15px;
+}
+
+.likes, .user-username {
+    font-weight: 900;
+}
+
+.description {
+    font-size: large;
 }
